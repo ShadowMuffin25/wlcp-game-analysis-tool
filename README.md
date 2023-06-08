@@ -3,6 +3,10 @@ Recently, educators and computer science researchers have begun partnering to de
 
 This tool enables the analysis of the finite state machine JSON representations of WearableLearning games for research. In other words, we will identify what characteristics can be extracted from student game designs.
 
+The code is divided into two parts: 
+1. The Finding Loops and Conditionals part that is used to detect and count loops and if-else structures in the Finite State Machine representation of the children games; .
+2. The Model to classify children's text: We analyze the games using text descriptions written by children. To do that, we use BERT to encode the input vectors (the numerical data that comes from embedded text) into hidden states that capture contextual information of the inputs. The hidden states are then put into a neural network which then processes and learns from the states and adjusts the weights/strengths of connections between the nodes based on patterns and relationships in the data. In the end, we have 54 output nodes corresponding to our 54 classes (54 attributes of the games).
+
 # Working on this Project
 
 # Code based, Analysis, and Result
