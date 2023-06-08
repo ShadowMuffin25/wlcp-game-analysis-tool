@@ -1,5 +1,7 @@
 # The WearableLearning Game Analysis Tool
-This tool enables the analysis of the finite state machine JSON representations of WearableLearning games for research.
+Recently, educators and computer science researchers have begun partnering to develop new pedagogical tools based on wearable technology. Wearable Learning (WL) provides students with the tools to play physically active math games using mobile devices, as well as design their own games through the WL Platform. The games created by children are stored as JSON files.
+
+This tool enables the analysis of the finite state machine JSON representations of WearableLearning games for research. In other words, we will identify what characteristics can be extracted from student game designs.
 
 # Working on this Project
 

@@ -29,7 +29,7 @@ def myFunc(e):
 
 for single_file in data:
     att =  list(single_file.keys())
-    if (single_file['gameId'] == 'TangramsRace'):
+    if (single_file['gameId'] == 'TangramsRace'):   
         temp = single_file['states']
         b = []
         for i in temp:
